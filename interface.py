@@ -13,7 +13,7 @@ class BookstoreGUI:
 
         # create the title and geometry
         self.root.title("BIMS | Bookstore Inventory Management System")
-        self.root.geometry("900x500")
+        self.root.geometry("700x400")
 
         # create frames
         self.crud_frame = tkinter.Frame(self.root)
@@ -80,10 +80,10 @@ class BookstoreGUI:
         self.clear_button = tkinter.Button(self.save_or_clear_frame, text="Clear", command=self.__clear)
 
         # pack crud buttons
-        self.create_button.pack(side="left", ipadx=40, padx=10, pady=10)
-        self.read_button.pack(side="left", ipadx=40, padx=10, pady=10)
-        self.update_button.pack(side="left", ipadx=40, padx=10, pady=10)
-        self.delete_button.pack(side="left", ipadx=40, padx=10, pady=10)
+        self.create_button.pack(side="left", ipadx=30, padx=10, pady=10)
+        self.read_button.pack(side="left", ipadx=30, padx=10, pady=10)
+        self.update_button.pack(side="left", ipadx=30, padx=10, pady=10)
+        self.delete_button.pack(side="left", ipadx=30, padx=10, pady=10)
 
         # pack option menu
         self.dropdown_menu.pack(side="top", ipadx=220, pady=5)
