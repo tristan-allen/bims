@@ -13,7 +13,7 @@ class BookstoreGUI:
 
         # create the title and geometry
         self.root.title("BIMS | Bookstore Inventory Management System")
-        self.root.geometry("900x500")
+        self.root.geometry("700x400")
 
         # create frames
         self.crud_frame = tkinter.Frame(self.root)
